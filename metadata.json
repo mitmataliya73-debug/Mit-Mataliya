@@ -1,0 +1,6 @@
+{
+  "name": "Google × Spider-Man: Brand New Day",
+  "description": "Premium limited-edition streetwear ecommerce collection inspired by Google Merchandise Store products and GA4 insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

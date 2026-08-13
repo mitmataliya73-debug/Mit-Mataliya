@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-dark: #050505;
+    --bg-card: #0d1117;
+    --spider-red: #E62429;
+    --spider-red-bright: #FF2E34;
+    --spider-blue: #2563eb;
+  }
+
+  body {
+    background-color: #050505;
+    color: #f3f4f6;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+.font-display {
+  font-family: 'Anton', sans-serif;
+}
+
+.halftone {
+  background-image: radial-gradient(#ffffff22 1px, transparent 1px);
+  background-size: 8px 8px;
+}
+
+.web-lines {
+  background: repeating-linear-gradient(45deg, transparent, transparent 40px, rgba(230, 36, 41, 0.05) 40px, rgba(230, 36, 41, 0.05) 41px);
+}
+
+.text-outline {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+  color: transparent;
+}
+
+/* Custom Web Pattern Overlay */
+.bg-web-pattern {
+  background-image: radial-gradient(rgba(230, 36, 41, 0.12) 1px, transparent 1px), radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+.bg-spider-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(230, 36, 41, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(230, 36, 41, 0.06) 1px, transparent 1px);
+}
+
+/* Custom Marquee Animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Red Glow Effects */
+.glow-red {
+  box-shadow: 0 0 25px -5px rgba(230, 36, 41, 0.4);
+}
+
+.glow-red-sm {
+  box-shadow: 0 0 12px -2px rgba(230, 36, 41, 0.35);
+}
+
+.text-gradient-red {
+  background: linear-gradient(135deg, #ffffff 30%, #E62429 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22252a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E62429;
+}
