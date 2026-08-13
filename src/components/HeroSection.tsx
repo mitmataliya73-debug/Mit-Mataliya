@@ -73,7 +73,7 @@ export const HeroSection: React.FC = () => {
               </div>
               <div className="flex items-center gap-1.5">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
-                <span className="text-white/80 font-semibold">GA4-Tracked Architecture</span>
+                <span className="text-white/80 font-semibold">HIGH-PERFORMANCE ARCHITECTURE</span>
               </div>
             </div>
           </div>

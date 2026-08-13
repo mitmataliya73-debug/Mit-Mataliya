@@ -22,7 +22,7 @@ export const Navbar: React.FC = () => {
     { label: 'CLOTHING', page: 'shop', category: 'clothing' },
     { label: 'ACCESSORIES', page: 'shop', category: 'accessories' },
     { label: 'COLLECTIBLES', page: 'shop', category: 'collectibles' },
-    { label: 'GA4 ACADEMIC INSIGHTS', page: 'about' },
+    { label: 'ABOUT', page: 'about' },
   ];
 
   const handleNavClick = (page: PageType, category: string = 'all') => {
@@ -76,18 +76,6 @@ export const Navbar: React.FC = () => {
 
           {/* Right Controls */}
           <div className="flex items-center space-x-3 sm:space-x-4 text-[10px] font-semibold tracking-widest">
-            {/* GA4 Inspector Toggle */}
-            <button
-              onClick={() => setGA4InspectorOpen(true)}
-              className="flex items-center gap-1.5 px-3 py-1.5 bg-white/10 hover:bg-white/20 text-white border border-white/20 transition-all cursor-pointer text-[10px] font-bold tracking-widest uppercase"
-              title="Open Live GA4 Analytics Debugger"
-            >
-              <BarChart2 className="w-3.5 h-3.5 text-[#E62429]" />
-              <span className="hidden sm:inline font-mono">
-                GA4 LOGS
-              </span>
-            </button>
-
             {/* Search Trigger */}
             <button
               onClick={() => setSearchOpen(true)}

@@ -22,7 +22,7 @@ export const HighInterestSection: React.FC = () => {
             WHAT'S GETTING ATTENTION
           </h2>
           <p className="text-white/60 text-xs sm:text-sm">
-            One of the strongest purchase-volume products in the GA4 dataset. Reimagined with Brand New Day vector graphics.
+            One of the strongest purchase-volume products in the collection. Reimagined with Brand New Day vector graphics.
           </p>
         </div>
 

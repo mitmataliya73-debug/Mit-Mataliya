@@ -138,7 +138,6 @@ const MainContent: React.FC = () => {
       {/* Global Overlays & Modals */}
       <CartDrawer />
       <SearchModal />
-      <GA4InspectorModal />
       <Toast />
 
       {/* 12. Footer */}

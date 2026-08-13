@@ -78,7 +78,7 @@ export const FeaturedProductSection: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-2">
                 <span className="px-2.5 py-0.5 bg-[#E62429] text-white font-bold text-[9px] uppercase tracking-widest">
-                  GA4 REVENUE #1
+                  TOP REVENUE #1
                 </span>
                 <span className="text-[10px] text-white/50 font-mono">SKU: BND-ML-1998</span>
               </div>

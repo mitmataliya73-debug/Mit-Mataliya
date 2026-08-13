@@ -29,22 +29,22 @@ export const AboutStoryPage: React.FC = () => {
         {/* Header */}
         <div className="bg-neutral-900 border border-neutral-800 rounded-3xl p-8 sm:p-12 space-y-4 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-80 h-full bg-gradient-to-l from-red-950/30 to-transparent pointer-events-none" />
-          <span className="px-3 py-1 bg-red-950 text-red-400 border border-red-800 text-[10px] font-black uppercase tracking-widest rounded">
-            ACADEMIC ECOMMERCE REDESIGN & GA4 CASE STUDY
+          <span className="px-3 py-1 bg-[#E62429] text-white text-[9px] font-bold uppercase tracking-widest">
+            COLLECTION STORY & CONCEPT OVERVIEW
           </span>
-          <h1 className="text-3xl sm:text-5xl font-black uppercase text-white tracking-tight">
+          <h1 className="text-3xl sm:text-5xl font-display uppercase text-white tracking-tight">
             GOOGLE × SPIDER-MAN: BRAND NEW DAY
           </h1>
-          <p className="text-neutral-300 text-sm leading-relaxed max-w-2xl">
-            This student redesign project translates raw GA4 e-commerce metrics from the Google Merchandise Store into a high-converting, streetwear-inspired collaboration prototype.
+          <p className="text-white/60 text-sm leading-relaxed max-w-2xl">
+            A concept collaboration translating Google Merchandise Store essentials into a high-converting, streetwear-inspired collection.
           </p>
         </div>
 
-        {/* GA4 Key Performance Benchmarks Grid */}
+        {/* Collection Performance Benchmarks Grid */}
         <div className="space-y-4">
-          <h2 className="text-xl font-black uppercase tracking-wider text-white flex items-center gap-2">
-            <BarChart2 className="w-5 h-5 text-red-500" />
-            <span>GA4 DATASET BENCHMARKS</span>
+          <h2 className="text-xl font-display uppercase tracking-wider text-white flex items-center gap-2">
+            <BarChart2 className="w-5 h-5 text-[#E62429]" />
+            <span>COLLECTION PERFORMANCE METRICS</span>
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

@@ -50,7 +50,7 @@ export const CampaignStorySection: React.FC = () => {
                 A new chapter calls for a new uniform.
               </p>
               <p className="text-xs md:text-sm text-white/60 leading-relaxed">
-                Inspired by the relentless energy of New York, built around everyday Google essentials, and reimagined with a bold streetwear attitude. We took authentic GA4 commerce analytics and transformed them into a limited-edition apparel experience.
+                Inspired by the relentless energy of New York, built around everyday Google essentials, and reimagined with a bold streetwear attitude into a limited-edition apparel experience.
               </p>
             </div>
 

@@ -21,7 +21,7 @@ export const Footer: React.FC = () => {
             </div>
 
             <p className="text-white/50 text-xs leading-relaxed max-w-sm">
-              An academic student e-commerce redesign project fusing Google Merchandise Store products with Spider-Man: Brand New Day urban streetwear aesthetics and GA4 dataset insights.
+              A concept e-commerce collaboration fusing Google Merchandise Store products with Spider-Man: Brand New Day urban streetwear aesthetics.
             </p>
 
             <div className="flex items-center gap-2 text-[10px] text-white/50 font-mono uppercase tracking-widest">
